@@ -1,0 +1,6 @@
+framework module Pods_Kadai6Tests {
+  umbrella header "Pods-Kadai6Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
