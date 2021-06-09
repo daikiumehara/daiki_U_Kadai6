@@ -34,9 +34,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4J3-d2-9mx">
                                 <rect key="frame" x="176" y="231" width="62" height="30"/>
                                 <state key="normal" title="判定する"/>
-                                <connections>
-                                    <action selector="didTapJudgeButton:" destination="J8i-s5-YJ6" eventType="touchUpInside" id="UQl-Sy-Gh4"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HR-an-n74">
                                 <rect key="frame" x="20" y="169" width="8" height="21"/>
@@ -63,6 +60,7 @@
                     </view>
                     <connections>
                         <outlet property="answerSlider" destination="6gZ-d2-BvV" id="p9l-6d-VTl"/>
+                        <outlet property="judgeButton" destination="4J3-d2-9mx" id="rzx-Ga-Z3w"/>
                         <outlet property="questionNumberLabel" destination="0AY-0W-gTq" id="cIK-JV-A6w"/>
                     </connections>
                 </viewController>
